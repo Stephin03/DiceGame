@@ -1,0 +1,60 @@
+.container {
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #222629;
+}
+
+h1 {
+  margin: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #EDC7B7;
+}
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 30px; /* Padding for size */
+  font-size: 18px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Space above button */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #367937; 
+}
+
+p {
+  font-size: 2rem;
+  color: #e85a4f;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 70%; 
+  max-width: 150px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #e85a4f;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
